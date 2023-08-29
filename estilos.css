@@ -1,0 +1,233 @@
+
+/*  formatear html a zero bordes,padding y etc para que no tenga bordes predeterminados  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------------------*/
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------------------------------*/
+body{
+    background-color: #101728;
+}
+
+/*  ---------------------- menu de navegacion --------------------*/ 
+header{
+    height: 11vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav_fijado{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    width: 60%;
+    margin: auto;
+}
+
+#sect_portada{
+    margin-top: 11vh;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+/* ------------------------------- contenedor -----------------*/
+
+.portada{
+    background-color: black;
+    display: flex; /* centar divs*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 100vh;
+    /* height: 700px; */
+
+}
+.texto_grande{
+    font-size: 50px;
+}
+
+.div_1{
+    color:white;
+    /*background-color: violet;*/
+    padding-left: 5%;
+    width: 50%;
+    
+    /* Centrar "derroca a un dictador ... " */
+    display: grid;
+    align-content: center;
+
+}
+
+.div_2{
+    /* centrar algo al centro de un div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /*background-color: red;*/
+}
+
+/* bordes redondos*/
+.img_portada{
+    border-radius: 5%;
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius:20px;
+    background-image: linear-gradient(to right, purple,#DA70D6);
+    color:#0f1819;
+    cursor: pointer;
+    /* Otros estilos si es necesario */
+  }
+  
+/* -------------- div farcry  -------------- */
+
+.class_farcry{
+    background-image: url("img/sec2_banner.jpg");
+    height: 100vh;
+    background-position: 50% 50%;
+}
+
+
+/* personajes                                           */
+.personajes{
+    background-image: url(img/-1_orig.jpeg);
+    height: 100vw ;
+}
+
+/* seccion farcry*/
+.h1_tx1{
+    size: 5%;
+}
+
+.farcry_text_1{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    
+    /* background-color: burlywood; */
+    color: white;
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+
+.farcry_text_2{
+    height: 50%;
+   
+    
+    
+    align-items: center;
+    color: black;
+
+    /* background-color: brown; */
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+
+.farcry_paper{
+    display: grid;
+    /* background-image: url(img/paper.png); */
+    
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
+/* -------------- entregas --------------- */
+
+/* parte 0 */
+.sec_entregas{
+    background-color: aqua;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*  centrar el texto del div */
+    align-items: center;
+}
+
+/* parte 1 */
+.sec_entregas_txt1{
+    color: #9340ff;
+    background-color: brown;
+    height: 20vh;
+}
+
+/* parte 2 */
+.sec_entregas_container{
+    display: flex;
+    /* padding: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 60vh;
+}
+
+.sec_entregas_box{
+    display: flex;
+    width: 33.33%;
+    padding: 4%;
+    background-color: #9340ff;
+    
+}
+.sec_entregas_box2{
+    display: flex;
+    width: 33.33%;
+    padding: 2%;
+    background-color: #101728;
+}
+
+.sec_entregas_img{
+    width:100%;
+    height:auto;
+    border-radius: 10%; /* redonderar bordes de la imagen */
+}
+
+/* parte 3 */
+.sec_entregas_txt2{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: brown;
+    height: 20vh;
+
+}
