@@ -20,6 +20,13 @@
 
 2. Abre el archivo `index.html` en tu navegador web favorito.
 
+
+# Diseño base:
+
+Puedes ver el diseño base .PDF en la carpeta "diseño" 
+
+o verlo online en el host de canva con el siguiente enlace: https://farcry.my.canva.site/
+
 ## Contribuciones
 
 ¡Estamos abiertos a contribuciones! Si eres un apasionado de Far Cry y te gustaría contribuir a este proyecto contáctanos
@@ -28,7 +35,16 @@
 
 Si tienes preguntas, sugerencias o simplemente quieres decir hola, no dudes en contactarnos a través de el fprmulario en nuestra pagina web.
 
+
+
+
 ¡Esperamos que disfrutes explorando el mundo de Far Cry en nuestra página web!
+
+
+
+
+
+
 
 ---
 
