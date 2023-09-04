@@ -411,3 +411,78 @@ textarea {
 
 }
 /* fin footer */
+
+
+
+/* INICIO PERSONAJES */
+/* Estilos generales del contenedor */
+.sec_div_personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Estilos para los elementos individuales */
+.sec_div_personajes_item {
+    width: 48%; /* Esto divide los elementos en dos columnas */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para la imagen */
+.sec_div_personajes_imagen {
+    float: left;
+    width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sec_div_personajes_imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para el texto */
+.sec_div_personajes_texto {
+    float: left;
+    width: 65%; /* Ajusta el ancho del texto según tus necesidades */
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+/* Limpiar el float para evitar colisiones con elementos posteriores */
+.sec_div_personajes_item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Estilos adicionales según tus necesidades */
+
+
+
+
+/* Estilos para la imagen */
+.sec_div_personajes_imagen {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden; /* Evitar que la imagen se desborde */
+}
+
+.sec_div_personajes_imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Resto de los estilos se mantienen iguales */
+
+/* FIN PERSONAJES */
