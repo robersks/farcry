@@ -113,29 +113,39 @@ a:hover{
     /* Otros estilos si es necesario */
   }
   
+
+
+
 /* -------------- div farcry  -------------- */
-
-
 .class_farcry{
     width: 100%;
     height: 100vh;
     background-image: url("img/Fondos.jpg");
-    background-size: 100% auto; /* ajustar el ancho */
+    background-size: 100% 99%; /* ajustar el ancho */
     background-repeat: no-repeat;
     background-position: center;
-    
+}
 
+.h1_tx1{
+    display: flex;
+    padding-top: 10%;   
+   font-size: 400%;
+}
+
+.farcry_text_2{
+    display: flex;   
+    padding-left: 10%;
+    padding-right: 33%;
+    padding-top: 5%;
 }
 
 
-
-
-
-/* personajes                                           */
-.personajes{
-    background-image: url(img/-1_orig.jpeg);
-    height: 100vw ;
+.class_farcry_p2{
+    color: black; 
+    font-size: 200% ;
 }
+
+/* -------------- fin div farcry  -------------- */
 
 /* seccion farcry*/
 .h1_tx1{
@@ -157,32 +167,6 @@ a:hover{
     
 }
 
-
-
-.farcry_text_2{
-    height: 50%;
-   
-    
-    
-    align-items: center;
-    color: black;
-
-    /* background-color: brown; */
-    color: white;
-    display: grid;
-    justify-content: center;
-}
-
-
-.farcry_paper{
-    display: grid;
-    /* background-image: url(img/paper.png); */
-    
-    
-    width: 100vw;
-    height: 100vh;
-    
-}
 /* -------------- entregas ------------------------------------------------------- */
 
 /* parte 0 */
@@ -249,82 +233,3 @@ a:hover{
     color: white;
     font-size: 200%;
 }
-
-/* ---------------------- seccion personajes */
-
-.sec_personajes{
-    height: 88vh;
-    background-image: url(img/sec3.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.sec_personajes_div1{
-    display: flex;
-    width:100% ;
-    height: 15vh;
-    background-color: red;
-    
-    justify-content: center;
-    align-items: center;
-}
-
-.sec_personajes_div2{
-    width: 100%;
-    height: auto;
-    background-color: aquamarine;
-}
-
-
-
-/* Estilos generales */
-.sec_personajes_div2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column; /* Alinea los elementos en columna */
-}
-
-/* Estilos para las filas */
-.fila {
-    display: flex;
-    justify-content: center;
-    margin: 1px;
-}
-
-/* Estilos para los cuadros */
-.cuadrado {
-    width: 150px;
-    height: 150px;
-    background-color: #3498db;
-    margin: 1px;
-}
-
-/* */ temp
-/* Estilos generales */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column; /* Alinea los elementos en columna */
-}
-
-/* Estilos para las filas */
-.fila {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-/* Estilos para los cuadros */
-.cuadrado {
-    width: 150px;
-    height: 150px;
-    background-color: #3498db;
-    margin: 5px;
-}
-
