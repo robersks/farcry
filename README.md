@@ -25,7 +25,8 @@
 
 Puedes ver el diseño base .PDF en la carpeta "diseño" 
 
-o verlo online en el host de canva con el siguiente enlace: https://farcry.my.canva.site/
+o verlo online en el host de canva con el siguiente enlace:   [`Ver diseño online`](https://farcry.my.canva.site/ "Clic para ir al sitio de canva"){:target="_blank"}
+
 
 ## Contribuciones
 
