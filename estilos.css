@@ -233,3 +233,181 @@ a:hover{
     color: white;
     font-size: 200%;
 }
+
+
+
+/* INICIO PERSONAJES */
+.sec_personajes{
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: url(img/paper.png);
+    background-position: center;
+    display: flex;
+}
+
+.sec_pers_contenedor{
+    /* background-color: #9340ff; */
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+
+.sec_pers_titulo{
+    /* background-color: #9340ff; */
+    padding-top: 5%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_pers_p1{
+    color: blueviolet;
+    font-size: 7vh;
+}
+
+.sec_pers_caja{
+    background-color: blue;
+    height: 70%;    
+}
+
+/* FIN PERSONAJES */
+
+
+
+/* INICIO CONTACTO */
+.formulario {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(img/1_orig.jpeg);
+    align-items: center;
+    height: 100vh;
+}
+
+.sec_form_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    padding-right: 2%;
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sec_form_group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.sec_form_button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sec_form_button:hover {
+    background-color: #0056b3;
+}
+
+/* FIN CONTACTO */
+
+
+
+/* estilos footer */
+
+
+/* Estilos generales del footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    height: 30vh;
+    
+    justify-content: center;
+}
+
+/* Estilos para el lado izquierdo del footer */
+.footer-left {
+    width: 60%;
+    padding-left: 10%;
+    
+}
+
+/* Estilos para la lista de iconos sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para el lado derecho del footer (donde se coloca la imagen) */
+.footer-right {
+    
+    
+    justify-items: left;
+}
+
+/* Estilos para el texto de copyright */
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.perro_loco{
+    height: 30vh;
+
+}
+/* fin footer */
